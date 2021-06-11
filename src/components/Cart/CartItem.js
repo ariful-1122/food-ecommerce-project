@@ -1,6 +1,5 @@
 import classes from "./CartItem.module.css";
-import React, { useContext } from "react";
-import cartContext from "../../store/cart-context";
+import React from "react";
 
 const CartItem = (props) => {
   const price = `$${props.price.toFixed(2)}`;
