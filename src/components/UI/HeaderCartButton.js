@@ -16,9 +16,13 @@ const HeaderCartButton = (props) => {
       return;
     }
     setShowBump(true);
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       setShowBump(false);
     }, 500);
+
+    return () => {
+      clearTimeout(timer);
+    };
   }, [items]);
 
   return (
