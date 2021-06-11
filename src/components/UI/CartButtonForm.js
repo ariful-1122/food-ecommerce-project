@@ -1,5 +1,5 @@
 import classes from "./CartButtonForm.module.css";
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 
 const CartButtonForm = (props) => {
   const amountRef = useRef();
