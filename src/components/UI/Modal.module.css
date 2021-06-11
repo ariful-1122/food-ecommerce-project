@@ -1,0 +1,65 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 40;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.modal {
+  padding: 20px;
+  max-width: 40rem;
+  width: 90%;
+  margin: 0 auto;
+  position: fixed;
+  top: 30%;
+  left: 15rem;
+  z-index: 50;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+.modal_actions {
+  padding-top: 20px;
+}
+
+.total_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.modal_amount h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button_1 {
+  background: rgb(245, 71, 129);
+  margin-right: 5px;
+}
+
+.button_1:hover {
+  background: rgb(240, 53, 115);
+}
+
+.button_2 {
+  background: rgb(97, 235, 154);
+}
+
+.button_2:hover {
+  background: rgb(36, 211, 109);
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

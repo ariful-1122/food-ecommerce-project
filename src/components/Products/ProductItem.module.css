@@ -1,0 +1,45 @@
+.product_wrapper {
+  border: 1px solid #ddd;
+  animation: fadeToUp 1s ease forwards;
+}
+
+.product_wrapper div {
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.desc h2 {
+  color: #777;
+  font-size: 22px;
+  margin-bottom: 5px;
+  letter-spacing: 0.8px;
+}
+
+.desc p {
+  color: #888;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
+
+.desc h4 {
+  margin-top: 5px;
+}
+
+@keyframes fadeToUp {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

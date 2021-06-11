@@ -1,0 +1,44 @@
+.cart_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid chartreuse;
+  padding: 5px 0px;
+  margin: 10px 0;
+}
+
+.item_info h3 {
+  font-size: 22px;
+}
+
+.item_info p {
+  font-style: italic;
+  color: rgb(71, 71, 83);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cart_actions {
+  display: flex;
+  align-items: center;
+}
+
+.cart_actions button {
+  width: 50px;
+  height: 25px;
+  background: #6e1dff;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  border: none;
+  outline: none;
+  margin: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.cart_actions button:hover {
+  background: #7b37f0;
+}

@@ -1,0 +1,26 @@
+.cart_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart_button button {
+  padding: 10px 30px;
+  background: orangered;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cart_button button:hover {
+  background: brown;
+}
+
+.cart_button input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+}

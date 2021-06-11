@@ -1,0 +1,24 @@
+.products {
+  padding: 6rem calc(3vw + 5px);
+}
+
+.products ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: calc(2vw);
+}
+
+@media only screen and (max-width: 768px) {
+  .products ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .products ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
